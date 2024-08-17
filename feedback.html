@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.feedback-form, .contact-info {
+    width: 45%;
+}
+
+.feedback-form h2, .contact-info h3, .contact-info h4 {
+    color: #fff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.ratings {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating-category {
+    text-align: center;
+}
+
+.stars {
+    color: #fff;
+    font-size: 20px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.input-group input, .input-group select, .input-group textarea {
+    width: 48%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+input[type="text"], input[type="email"], input[type="datetime-local"], select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+.contact-info p, .contact-details p, .contact-info a {
+    margin: 10px 0;
+    color: #fff;
+}
+
+.map iframe {
+    width: 100%;
+    height: 200px;
+    border: none;
+}
+
+.contact-details a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-details a:hover {
+    text-decoration: underline;
+}
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="./assets/logo.png" alt="Salt 'n Pepper Logo" height="100px">
+            <span></span>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Publications</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </nav>
+        <div class="buttons">
+            <button class="franchise-btn">Get a Franchise</button>
+            <button class="order-btn">Order Online</button>
+        </div>
+    </header>
+    <div>
+        <img src="./assets/m1.PNG" alt="main imag">
+
+    </div>
+
+
+    <div class="container">
+        <div class="feedback-form">
+            <h2>Your feedback is important to us and we greatly appreciate you filling out the comment form below. We look forward to hearing from you!</h2>
+            <form>
+                <div class="ratings">
+                    <div class="rating-category">
+                        <label for="food">Food</label>
+                        <div class="stars" id="food">
+                            ★★★★★
+                        </div>
+                    </div>
+                    <div class="rating-category">
+                        <label for="service">Service</label>
+                        <div class="stars" id="service">
+                            ★★★★★
+                        </div>
+                    </div>
+                    <div class="rating-category">
+                        <label for="cleanliness">Cleanliness</label>
+                        <div class="stars" id="cleanliness">
+                            ★★★★★
+                        </div>
+                    </div>
+                    <div class="rating-category">
+                        <label for="value">Value for Money</label>
+                        <div class="stars" id="value">
+                            ★★★★★
+                        </div>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="text" placeholder="Phone number" required>
+                </div>
+                <div class="input-group">
+                    <input type="datetime-local" required>
+                    <select required>
+                        <option value="">Select Branch</option>
+                        <!-- Add branch options here -->
+                    </select>
+                </div>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Suggestions (if any)"></textarea>
+                <div class="input-group">
+                    <input type="text" placeholder="Favourite item 1">
+                    <input type="text" placeholder="Favourite item 2">
+                    <input type="text" placeholder="Favourite item 3">
+                </div>
+                <div class="input-group">
+                    <label>Are you satisfied with our current menu?</label>
+                    <label><input type="radio" name="satisfaction" value="yes"> Yes</label>
+                    <label><input type="radio" name="satisfaction" value="no"> No</label>
+                </div>
+                <div class="input-group">
+                    <textarea placeholder="If not, what new food items would you like us to add?"></textarea>
+                </div>
+                <div class="input-group">
+                    <label>Have you visited our Social Media pages & website?</label>
+                    <label><input type="checkbox"> Facebook</label>
+                    <label><input type="checkbox"> Instagram</label>
+                    <label><input type="checkbox"> Twitter</label>
+                    <label><input type="checkbox"> Website</label>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="contact-info">
+            <h3>Foodconsults (PVT.) LTD.</h3>
+            <p>Foodconsults (Pvt.) Ltd. was founded in 1983 by Mahmood Akbar, considered by many as the pioneer restaurateur in Pakistan. The organization, which has its headquarter in Lahore, prides itself on developing and growing a unique chain of restaurants known as the Salt’n Pepper Restaurants. Salt’n Pepper restaurants are Pakistan’s most recognized and distinguished hospitality brand with a history of market innovation and excellence in restaurant chain operations.</p>
+            <h4>Contact Us</h4>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423142.8886206357!2d74.11115258359384!3d31.482635175771074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919038c9f37f1df%3A0x12a5f2caaadad22c!2sFoodconsults%20(Pvt)%20Ltd!5e0!3m2!1sen!2s!4v1680787691955!5m2!1sen!2s" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="contact-details">
+                <p>Head Office</p>
+                <p>+92-42-35860091</p>
+                <p>+92-42-35860090</p>
+                <p>+92-42-111-700-678</p>
+                <p><a href="mailto:apl@food.pkt">apl@food.pkt</a></p>
+                <p>23 Usman Block, New Garden Town, Lahore, Pakistan</p>
+            </div>
+        </div>
+    </div>
+
+    
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <img src="./assets/logo.png" alt="Salt'n Pepper Logo" class="footer-logo">
+                <p class="description">The Salt'n Pepper Restaurants are an example of gracious dining, outstanding service, extraordinary classic and contemporary cuisine. The restaurants have become the ultimate dining destinations in Lahore. From family occasions to business dinners and moments of the heart, this place is where unforgettable memories are made.</p>
+                <p class="terms"><a href="#">Terms & conditions</a> | <a href="#">Privacy policy</a></p>
+            </div>
+            <div class="footer-links">
+                <h4>Site Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Publications</a></li>
+                    <li><a href="#">Get a Franchise</a></li>
+                    <li><a href="#">Feedback</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p><strong>Head office Address</strong><br>
+                23-Usman Block, New GardenTown, Lahore, Pakistan</p>
+                <p><strong>Head office number</strong><br>
+                +92 42 358 509 31<br>
+                +92 42 358 509 30</p>
+                <p><strong>Email Address</strong><br>
+                snpfood@brain.net.pk</p>
+                <p><strong>Free delivery number</strong><br>
+                +92 42 111 100 678<br>
+                +92 03 111 444 610</p>
+            </div>
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#"><img src="./assets/fb.png" alt="Facebook" width="25px"></a>
+                    <a href="#"><img src="./assets/images.jpg" alt="Instagram" width="25px" height="25px"></a>
+                    <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+                </div>
+                <div class="app-buttons">
+                    <a href="#"><img src="appstore.png" alt="App Store"></a>
+                    <a href="#"><img src="googleplay.png" alt="Google Play"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2023 Salt'n Pepper Restaurant.</p>
+            <p>Powered by tossdown.com</p>
+        </div>
+    </footer>
+
+
+
+
+
+</body>
+</html>

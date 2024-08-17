@@ -1,0 +1,520 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.franchise-btn,
+.order-btn {
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    margin-left: 10px;
+    font-size: 16px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.franchise-btn {
+    background-color: transparent;
+    color: #fff;
+}
+
+.order-btn {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+.order-btn:hover {
+    background-color: #cc0000;
+}
+
+.franchise-btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.banner {
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.banner img {
+    max-width: 100%;
+    height: 200%;
+}
+
+
+/*-------------------------------------------------------------------*/
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h1 span {
+    color: #FF0000; /* Red color */
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+.brands {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.brand {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+}
+
+.brand img {
+    max-width: 100%;
+    height: auto;
+}
+
+.brand button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.brand button:hover {
+    background-color: #444;
+}
+
+
+
+
+
+
+
+
+
+
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+.franchise {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.franchise-item {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+
+.franchise-item h3 {
+    color: #FF0000; /* Red color */
+}
+
+.franchise-item h4 {
+    margin-top: 0;
+}
+
+.franchise-item p {
+    margin: 10px 0;
+}
+
+.franchise-item button {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+.franchise-item button:hover {
+    background-color: #444;
+}
+
+.franchise-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+    .franchise {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .franchise-item {
+        margin: 10px;
+        max-width: 300px;
+    }
+}
+
+
+
+
+
+
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.franchise {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.franchise-item {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    color: white;
+}
+
+.franchise-item h3 {
+    color: #FF0000; /* Red color */
+}
+
+.franchise-item h4 {
+    margin-top: 0;
+}
+
+.franchise-item p {
+    margin: 10px 0;
+}
+
+.franchise-item button {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+.franchise-item button:hover {
+    background-color: #444;
+}
+
+.franchise-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+    .franchise {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .franchise-item {
+        margin: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.header h2 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-container img {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px 0;
+}
+
+.details {
+    text-align: left;
+    max-width: 800px;
+}
+
+.details h3 {
+    color: red;
+    margin: 0;
+}
+
+.details h1 {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+.details p {
+    margin: 5px 0;
+}
+
+.directions-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #28a745;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.directions-button:hover {
+    background-color: #218838;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.footer {
+    background-color: #000;
+    padding: 40px 20px;
+    color: #fff;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-left, .footer-links, .footer-contact, .footer-social {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-logo {
+    width: 150px;
+}
+
+.description {
+    margin: 20px 0;
+}
+
+.terms a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin: 10px 0;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-contact p {
+    margin: 10px 0;
+}
+
+.footer-social .social-icons a {
+    margin: 0 10px;
+}
+
+.footer-social .app-buttons a {
+    display: block;
+    margin: 10px 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #333;
+    padding-top: 10px;
+}
+
+.footer-bottom p {
+    margin: 5px 0;
+}
